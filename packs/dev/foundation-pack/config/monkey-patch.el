@@ -22,9 +22,10 @@ Before and after saving the buffer, this function runs
               setmodes)
           ;; If buffer has no file name, ask user for one.
           (let ((the-window (frame-selected-window))
-                (if (window-dedicated-p the-window)
-                    (switch-to-buffer (current-window))
-                  (set-window-buffer the-window)))
+                (the-buffer (current-buffer)))
+            (if (window-dedicated-p the-window)
+                (switch-to-buffer (current-window))
+              (set-window-buffer the-window the-buffer)))
           (when (or buffer-file-name
                    (y-or-n-p "Buffer has no associated file and not saved. Save it? "))
 
