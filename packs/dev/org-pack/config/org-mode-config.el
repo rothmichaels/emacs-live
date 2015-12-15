@@ -30,3 +30,5 @@
             (define-key yas/keymap [tab] 'yas/next-field)))
 
 (require 'org)
+
+(setq org-odt-data-dir (expand-file-name "./org-mode/etc" (live-pack-lib-dir))
