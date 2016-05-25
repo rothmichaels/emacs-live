@@ -44,11 +44,11 @@
         ignore = untracked
 [submodule "packs/dev/power-pack/vendor/submodules/gist"]
         path = packs/dev/power-pack/vendor/submodules/gist
-        url = git://github.com/rothmichaels/gist.el.git
+        url = git://github.com/defunkt/gist.el.git
         ignore = untracked
 [submodule "packs/dev/power-pack/vendor/submodules/gh"]
         path = packs/dev/power-pack/vendor/submodules/gh
-        url = git://github.com/rothmichaels/gh.el.git
+        url = git://github.com/sigma/gh.el.git
         ignore = untracked
 [submodule "packs/dev/power-pack/vendor/submodules/pcache"]
         path = packs/dev/power-pack/vendor/submodules/pcache
