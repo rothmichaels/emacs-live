@@ -25,7 +25,7 @@
 ;; Ensure the exec-path honours the shell PATH
 (live-add-pack-lib "exec-path-from-shell")
 (require 'exec-path-from-shell)
-(exec-path-from-shell-initialize)
+(exec-path-from-shell-copy-env "PATH")
 
 ;; Ignore .DS_Store files with ido mode
 (add-to-list 'ido-ignore-files "\\.DS_Store")
