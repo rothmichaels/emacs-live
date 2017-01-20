@@ -20,7 +20,7 @@
         ignore = untracked
 [submodule "packs/dev/power-pack/vendor/submodules/undo-tree"]
         path = packs/dev/power-pack/vendor/submodules/undo-tree
-        url = git://github.com/emacsmirror/undo-tree.git
+        url = git://github.com/rothmichaels/undo-tree.git
         ignore = untracked
 [submodule "packs/dev/lang-pack/vendor/submodules/actionscript-mode"]
         path = packs/dev/lang-pack/vendor/submodules/actionscript-mode
